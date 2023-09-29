@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrelyCleaner", "StrelyCleaner\StrelyCleaner.csproj", "{728CC115-7AAE-4226-A517-6998526CD71D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StrelyCleaner.Helpers", "StrelyCleaner.Helpers\StrelyCleaner.Helpers.vbproj", "{6C31F00D-AC14-4348-8C96-D366B5C17064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{728CC115-7AAE-4226-A517-6998526CD71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728CC115-7AAE-4226-A517-6998526CD71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728CC115-7AAE-4226-A517-6998526CD71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728CC115-7AAE-4226-A517-6998526CD71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C31F00D-AC14-4348-8C96-D366B5C17064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C31F00D-AC14-4348-8C96-D366B5C17064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C31F00D-AC14-4348-8C96-D366B5C17064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C31F00D-AC14-4348-8C96-D366B5C17064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96F6672F-D007-4CE0-95E2-2CF40F095B3C}
+	EndGlobalSection
+EndGlobal

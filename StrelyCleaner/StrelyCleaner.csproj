@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{728CC115-7AAE-4226-A517-6998526CD71D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StrelyCleaner</RootNamespace>
+    <AssemblyName>StrelyCleaner</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>appicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dnlib, Version=3.4.0.0, Culture=neutral, PublicKeyToken=50e96378b6e77999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.4.0, Culture=neutral, PublicKeyToken=70866663edbc6595, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Win32.TaskScheduler, Version=2.10.1.0, Culture=neutral, PublicKeyToken=e25603a88b3aa7da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Microsoft.Win32.TaskScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenHardwareMonitorLib, Version=0.8.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\OpenHardwareMonitorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xylon.PH">
+      <HintPath>..\Libs\Xylon.PH.dll</HintPath>
+    </Reference>
+    <Reference Include="XylonV2, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\XylonV2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\CustomItemClick.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomItemClick.Designer.cs">
+      <DependentUpon>CustomItemClick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DeviceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DeviceControl.Designer.cs">
+      <DependentUpon>DeviceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameShorcut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GameShorcut.Designer.cs">
+      <DependentUpon>GameShorcut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NeonEffectProvider.cs" />
+    <Compile Include="Controls\OptionContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\OptionContainer.Designer.cs">
+      <DependentUpon>OptionContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RichTextLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TogleInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TogleInfoControl.Designer.cs">
+      <DependentUpon>TogleInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TransparentTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Core\Antivirus\AV_File.cs" />
+    <Compile Include="Core\Antivirus\CustomScanPath.cs" />
+    <Compile Include="Core\Antivirus\Startup.cs" />
+    <Compile Include="Core\Cleaner\Apps\UWP.cs" />
+    <Compile Include="Core\Cleaner\Browser\Chrome.cs" />
+    <Compile Include="Core\Cleaner\Browser\Edge.cs" />
+    <Compile Include="Core\Cleaner\Browser\Firefox.cs" />
+    <Compile Include="Core\Cleaner\Browser\IExplorer.cs" />
+    <Compile Include="Core\Cleaner\Browser\Opera.cs" />
+    <Compile Include="Core\Cleaner\Systems\CrashDumps.cs" />
+    <Compile Include="Core\Cleaner\Folders\Downloads.cs" />
+    <Compile Include="Core\Cleaner\Systems\Temp.cs" />
+    <Compile Include="Core\ControlLister.cs" />
+    <Compile Include="Core\ExceptionManager.cs" />
+    <Compile Include="Core\FastArgumentParser.cs" />
+    <Compile Include="Core\Hardware\ByteSize\BinaryByteSize.cs" />
+    <Compile Include="Core\Hardware\ByteSize\ByteSize.cs" />
+    <Compile Include="Core\Hardware\ByteSize\DecimalByteSize.cs" />
+    <Compile Include="Core\Hardware\Info.cs" />
+    <Compile Include="Core\Hardware\SYSInfoMonitorLib.cs" />
+    <Compile Include="Core\IconExtractor.cs" />
+    <Compile Include="Core\Extensions.cs" />
+    <Compile Include="Core\InstalledProgramManager.cs" />
+    <Compile Include="Core\Interfaces\ICleaner.cs" />
+    <Compile Include="Core\Interfaces\IGenOptions.cs" />
+    <Compile Include="Core\Interfaces\IRenderForm.cs" />
+    <Compile Include="Core\Interfaces\IScan.cs" />
+    <Compile Include="Core\Interfaces\ITempMainForm.cs" />
+    <Compile Include="Core\Interfaces\ITweat.cs" />
+    <Compile Include="Core\Optimizer\PerformanceInfo.cs" />
+    <Compile Include="Core\Optimizer\PowerPlanManager.cs" />
+    <Compile Include="Core\Optimizer\RamCleaner.cs" />
+    <Compile Include="Core\Optimizer\SentinelGameLauncher.cs" />
+    <Compile Include="Core\Optimizer\ServicesBoost.cs" />
+    <Compile Include="Core\Persistence.cs" />
+    <Compile Include="Core\RenderUI.cs" />
+    <Compile Include="Core\Global_Instances.cs" />
+    <Compile Include="Core\ScrollManager.cs" />
+    <Compile Include="Core\Services.cs" />
+    <Compile Include="Core\SettingProvider.cs" />
+    <Compile Include="Core\Settings.cs" />
+    <Compile Include="Core\SystemPaths.cs" />
+    <Compile Include="Core\Tweats\Defender.cs" />
+    <Compile Include="Core\Tweats\Explorer.cs" />
+    <Compile Include="Core\Tweats\Explorer_AutoComplete.cs" />
+    <Compile Include="Core\Tweats\LowLatency.cs" />
+    <Compile Include="Core\Tweats\Network_Throttling.cs" />
+    <Compile Include="Core\Tweats\Remote_Assistance.cs" />
+    <Compile Include="Core\Tweats\Services.cs" />
+    <Compile Include="Core\Tweats\Telemetry_Services.cs" />
+    <Compile Include="Core\Tweats\Timeouts.cs" />
+    <Compile Include="Core\Utilities.cs" />
+    <Compile Include="Core\WinAPI.cs" />
+    <Compile Include="External\3D Analyze\DX.cs" />
+    <Compile Include="External\3D Analyze\GL.cs" />
+    <Compile Include="External\3D Analyze\IConfig.cs" />
+    <Compile Include="External\ForceDel\FileDeleter.cs" />
+    <Compile Include="External\ForceDel\Logger.cs" />
+    <Compile Include="External\ForceDel\LowLevelHandleHelper.cs" />
+    <Compile Include="External\ForceDel\NativeMethods.cs" />
+    <Compile Include="External\ForceDel\OpenFilesEnumerator.cs" />
+    <Compile Include="External\ForceDel\PathHelper.cs" />
+    <Compile Include="External\ForceDel\ProcessHandleSnapshot.cs" />
+    <Compile Include="External\ForceDel\SaveNativeHandle.cs" />
+    <Compile Include="External\ForceDel\SystemHelper.cs" />
+    <Compile Include="External\ForceDel\UsedFileDetector.cs" />
+    <Compile Include="GUI\Antivirus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Antivirus.Designer.cs">
+      <DependentUpon>Antivirus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Cleaner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Cleaner.Designer.cs">
+      <DependentUpon>Cleaner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Hardware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Hardware.Designer.cs">
+      <DependentUpon>Hardware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Optimizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Optimizer.Designer.cs">
+      <DependentUpon>Optimizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SubForms\AVScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SubForms\AVScanner.Designer.cs">
+      <DependentUpon>AVScanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SubForms\GameLauncher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SubForms\GameLauncher.Designer.cs">
+      <DependentUpon>GameLauncher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Tweats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Tweats.Designer.cs">
+      <DependentUpon>Tweats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\CustomItemClick.resx">
+      <DependentUpon>CustomItemClick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DeviceControl.resx">
+      <DependentUpon>DeviceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GameShorcut.resx">
+      <DependentUpon>GameShorcut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OptionContainer.resx">
+      <DependentUpon>OptionContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TogleInfoControl.resx">
+      <DependentUpon>TogleInfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Antivirus.resx">
+      <DependentUpon>Antivirus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Cleaner.resx">
+      <DependentUpon>Cleaner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Hardware.resx">
+      <DependentUpon>Hardware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Optimizer.resx">
+      <DependentUpon>Optimizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SubForms\AVScanner.resx">
+      <DependentUpon>AVScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SubForms\GameLauncher.resx">
+      <DependentUpon>GameLauncher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Tweats.resx">
+      <DependentUpon>Tweats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StrelyCleaner.Helpers\StrelyCleaner.Helpers.vbproj">
+      <Project>{6C31F00D-AC14-4348-8C96-D366B5C17064}</Project>
+      <Name>StrelyCleaner.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-apps-tab-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-windows-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-opera-67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chrome-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edge-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-folder-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-internet-explorer-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="External\3D Analyze\d3d8.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="External\3D Analyze\d3d9.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="External\3D Analyze\opengl32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="97e742bc-7ce9-582a-9fd7-422b1c72235d.ico" />
+    <Content Include="appicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
