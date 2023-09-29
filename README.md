@@ -5,13 +5,17 @@
 <p align="center">
 	<a href="https://github.com/DestroyerDarkNess/StrelyCleaner/releases/download/1.6.3/StrelyCleaner.exe" target="_blank">
 		<img src="https://raw.githubusercontent.com/hellzerg/optimizer/master/download-button.png">
-		<br>
-		<img src="https://i.ibb.co/FKN6njM/pngwing-com-50x50.png">
-    <img src="https://i.ibb.co/7Yq8YVR/pngwing-com-1-50x50.png">
-    <img src="https://i.ibb.co/vd6rfjW/pngwing-com-2-50x50.png">
-    <img src="https://i.ibb.co/mG0tpDB/pngwing-com-3-50x50.png">
 	</a>
 </p>
+
+<p align="left">Compatible with : </p>
+	<p align="center">
+		<img src="https://i.ibb.co/FKN6njM/pngwing-com-50x50.png">
+                <img src="https://i.ibb.co/7Yq8YVR/pngwing-com-1-50x50.png">
+                <img src="https://i.ibb.co/vd6rfjW/pngwing-com-2-50x50.png">
+                <img src="https://i.ibb.co/mG0tpDB/pngwing-com-3-50x50.png">
+	</p>
+
 
 <center>
 <h2>ℹ️ The Swiss Army Knife for your system, Portable and Light.</h2> 
@@ -80,7 +84,9 @@ Learn about our security measures in the [Security Policy](https://github.com/he
 <h2> ☕ Can you help me stay sane? Buy a coffee so you don't talk to the walls.</h2>
 </center>
 
-If you find this tool useful, consider showing your support by [donating through buymeacoffee](https://www.buymeacoffee.com/s4lsalsoft) Or [donating through PayPal](https://www.paypal.com/paypalme/SalvadorKrilewski).
+If you find this tool useful, consider showing your support by : 
+  - [donating through buymeacoffee](https://www.buymeacoffee.com/s4lsalsoft) 
+  - [donating through PayPal](https://www.paypal.com/paypalme/SalvadorKrilewski).
 
 <center>
 <h2> ❤ Resources </h2>
