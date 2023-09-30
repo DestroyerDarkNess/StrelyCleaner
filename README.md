@@ -23,7 +23,7 @@
 
 Introducing StrelyCleaner, the ultimate all-in-one solution for your system needs. This advanced tool is meticulously designed to improve the performance of your device, protect it from threats, and provide detailed hardware information.
 
-A Swiss army knife for your system, portable and lightweight. Download it now! Only 4mb.
+**A Swiss army knife for your system, portable and lightweight. Download it now! Only 4mb.**
 
 <center>
 <h2> Features:</h2> 
