@@ -26,7 +26,7 @@ Introducing StrelyCleaner, the ultimate all-in-one solution for your system need
 A Swiss army knife for your system, portable and lightweight. Download it now! Only 4mb.
 
 <center>
-<h2> 🏗️ Key Features:</h2> 
+<h2> Features:</h2> 
 </center>
 
 - Hardware Info
@@ -46,25 +46,7 @@ Find the latest release of Optimizer on the [Releases](https://github.com/Destro
 <h2>🖼️ Screenshots</h2> 
 </center>
 
-View Optimizer in action through our [Screenshots](https://github.com/hellzerg/optimizer/blob/master/IMAGES.md) collection.
-
-<center>
-<h2> ❓ Frequently Asked Questions</h2> 
-</center>
-
-Find answers to common queries in the [FAQ Section](https://github.com/hellzerg/optimizer/blob/master/FAQ.md).
-
-<center>
-<h2> 📰 Changelog</h2> 
-</center>
-
-Stay updated with the latest changes through the [Changelog](https://github.com/hellzerg/optimizer/blob/master/CHANGELOG.md).
-
-<center>
-<h2>🛡️ Security Policy</h2> 
-</center>
-
-Learn about our security measures in the [Security Policy](https://github.com/hellzerg/optimizer/blob/master/SECURITY.md).
+View Optimizer in action through our [Screenshots](https://github.com/DestroyerDarkNess/StrelyCleaner/blob/main/IMAGES.md) collection.
 
 <center>
 <h2> 💻 Compatibility</h2> 
@@ -89,7 +71,7 @@ If you find this tool useful, consider showing your support by :
   - [donating through PayPal](https://www.paypal.com/paypalme/SalvadorKrilewski).
 
 <center>
-<h2> ❤ Resources </h2>
+<h2> 🛠️ Resources </h2>
 </center>
 
 - [Guna Controls](https://gunaui.com/products/ui-winforms/) - Perfect UI tools for WinForms C# and VB.NET app development
