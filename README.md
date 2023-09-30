@@ -40,6 +40,7 @@ Introducing StrelyCleaner, the ultimate all-in-one solution for your system need
 | System Tweats | ✅ | You can choose which feature to activate/deactivate, to improve your system. |
 | Custom App Themes | ✅ | This application is made with Winform, but it still doesn't have to be ugly. |
 | Startup Manager | ❌ Work in Progress | Manage your PC startup applications |
+| 3D analyze  | ❌ In the future | The legendary 3D analyze that helps the performance of weak PC games will be added to the Booster. It works in games with DX8/DX9/Opengl engine |
 
 <center>
 <h2> ⬇️ Downloads</h2> 
