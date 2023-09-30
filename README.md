@@ -59,14 +59,9 @@ View Optimizer in action through our [Screenshots](https://github.com/DestroyerD
 </center>
 
 - Requires .NET Framework 4.0
-- Compatible with Windows Vista, 7, 8, 8.1, 10, 11
-
-<center>
-<h2> 📊 Details</h2> 
-</center>
-
-- Latest version: 1.6.3 (Released: 28/9/2023)
-- SHA256: 44b39f1bd737af96099ba7c9b7a8248b09da08f3778ef068c6421478173379df
+- Compatible with Windows Vista, 7, 8, 8.1, 10, 11.
+  
+> If the application does not work correctly, go to [Discussions](https://github.com/DestroyerDarkNess/StrelyCleaner/discussions/1), I will help you. :)
 
 <center>
 <h2> ☕ Can you help me stay sane? Buy a coffee so you don't talk to the walls.</h2>
@@ -75,6 +70,12 @@ View Optimizer in action through our [Screenshots](https://github.com/DestroyerD
 If you find this tool useful, consider showing your support by : 
   - [donating through buymeacoffee](https://www.buymeacoffee.com/s4lsalsoft) 
   - [donating through PayPal](https://www.paypal.com/paypalme/SalvadorKrilewski)
+
+<center>
+<h2> 🌐 Join our Community</h2>
+</center>
+
+We’re using Discussions as a place to connect with other members of our community: [Discussions](https://github.com/DestroyerDarkNess/StrelyCleaner/discussions/1) .
 
 <center>
 <h2> 🛠️ Resources </h2>
