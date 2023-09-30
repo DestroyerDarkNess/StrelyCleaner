@@ -4,7 +4,7 @@
 
 <p align="center">
 	<a href="https://github.com/DestroyerDarkNess/StrelyCleaner/releases/download/1.6.3/StrelyCleaner.exe" target="_blank">
-		<img src="https://raw.githubusercontent.com/DestroyerDarkNess/StrelyCleaner/blob/main/download-button.png">
+		<img src="https://raw.githubusercontent.com/DestroyerDarkNess/StrelyCleaner/main/download-button.png">
 	</a>
 </p>
 
