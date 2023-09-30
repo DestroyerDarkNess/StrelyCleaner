@@ -29,12 +29,17 @@ A Swiss army knife for your system, portable and lightweight. Download it now! O
 <h2> Features:</h2> 
 </center>
 
-- Hardware Info
-- Antivirus
-- System&Game Booster
-- Cleaner
-- System Tweats
-- Custom App Themes
+> More features will be added, please be patient, and if you wish you can support me.
+
+| Characteristic | Available |  Description  |
+|----------|---------------|---------------|
+| Hardware Info | ✅ | Show important information about your PC. |
+| Antivirus | ✅ | A small antimalware, it is especially powerful in detecting and disinfecting USB devices. |
+| System/Game Booster | ✅ | Optimize Ram&CPU and improve overall performance. |
+| Cleaner | ✅ | Clean the garbage that applications leave on your PC. |
+| System Tweats | ✅ | You can choose which feature to activate/deactivate, to improve your system. |
+| Custom App Themes | ✅ | This application is made with Winform, but it still doesn't have to be ugly. |
+| Startup Manager | ❌ Work in Progress | Manage your PC startup applications |
 
 <center>
 <h2> ⬇️ Downloads</h2> 
@@ -68,7 +73,7 @@ View Optimizer in action through our [Screenshots](https://github.com/DestroyerD
 
 If you find this tool useful, consider showing your support by : 
   - [donating through buymeacoffee](https://www.buymeacoffee.com/s4lsalsoft) 
-  - [donating through PayPal](https://www.paypal.com/paypalme/SalvadorKrilewski).
+  - [donating through PayPal](https://www.paypal.com/paypalme/SalvadorKrilewski)
 
 <center>
 <h2> 🛠️ Resources </h2>
