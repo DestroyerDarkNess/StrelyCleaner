@@ -91,4 +91,6 @@ We’re using Discussions as a place to connect with other members of our commun
 </center>
 
 - [AnesHamdani08](https://github.com/AnesHamdani08) - Tester and Debugging Support.
+- [ElektroStudios](https://github.com/ElektroStudios) - For its code Snippets and other functions.
+   - Which are part of its [DevCase Framework](https://codecanyon.net/item/elektrokit-class-library-for-net/19260282)
 
