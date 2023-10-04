@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/DestroyerDarkNess/StrelyCleaner/releases/tag/1.6.4" target="_blank">
+	<a href="https://github.com/DestroyerDarkNess/StrelyCleaner/releases/download/1.6.4/StrelyCleaner.exe" target="_blank">
 		<img src="https://raw.githubusercontent.com/DestroyerDarkNess/StrelyCleaner/main/download-button.png">
 	</a>
 </p>
