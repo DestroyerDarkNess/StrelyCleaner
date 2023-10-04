@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/DestroyerDarkNess/StrelyCleaner/releases/download/1.6.3/StrelyCleaner.exe" target="_blank">
+	<a href="https://github.com/DestroyerDarkNess/StrelyCleaner/releases/tag/1.6.4" target="_blank">
 		<img src="https://raw.githubusercontent.com/DestroyerDarkNess/StrelyCleaner/main/download-button.png">
 	</a>
 </p>
@@ -46,13 +46,13 @@ Introducing StrelyCleaner, the ultimate all-in-one solution for your system need
 <h2> ⬇️ Downloads</h2> 
 </center>
 
-Find the latest release of Optimizer on the [Releases](https://github.com/DestroyerDarkNess/StrelyCleaner/releases) page.
+Find the latest release of StrelyCleaner on the [Releases](https://github.com/DestroyerDarkNess/StrelyCleaner/releases) page.
 
 <center>
 <h2>🖼️ Screenshots</h2> 
 </center>
 
-View Optimizer in action through our [Screenshots](https://github.com/DestroyerDarkNess/StrelyCleaner/blob/main/IMAGES.md) collection.
+View StrelyCleaner in action through our [Screenshots](https://github.com/DestroyerDarkNess/StrelyCleaner/blob/main/IMAGES.md) collection.
 
 <center>
 <h2> 💻 Compatibility</h2> 
